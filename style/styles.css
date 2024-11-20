@@ -1,0 +1,352 @@
+@font-face {
+	font-family: 'Horizon';
+	src: url(‘/fonts/horizon.otf’) format('otf')
+}
+:root{
+    --primary-color:#1b2269;
+    --secondary-color:#3d4699;
+    --text-color:#07080e;
+    --text-second-color:#FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+	font-family: 'Horizon', sans-serif;
+    color: var(--text-color);
+}
+
+
+
+.navbar{
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-content: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2em;
+    gap: 2em;
+}
+.navbar ul li a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: var(--text-second-color);
+}
+.navbar ul li a:hover{
+    background-color: #ffffff31;
+    margin: 0.5em;
+}
+.logoAxel{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+h1{
+    text-align: center;
+}
+
+
+main{
+    background-color: #f6f7ff;
+}
+h1{
+    font-size: 3em;
+    text-align: right;
+}
+.nom{
+    font-size: 2.3em;
+}
+.etat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    font-size: 0.75em;
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 100%;
+}
+.titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6em;
+}
+.titre:hover{
+    transform: scale(1.05);
+}
+
+.textanime{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+        font-size: 0.65em;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.textanime:hover{
+    transform: scale(1.05);
+}
+
+.texte{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.55em;
+    margin-top: 1.7em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.arrows {
+    width: 22%;
+    height: 7em;
+    position: relative;
+    left: 50%;
+    margin-left: -30px;
+    top: 2.7em;
+  }
+  
+  .arrows path {
+    stroke: #2994D1;
+    fill: transparent;
+    stroke-width: 1px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }
+
+hr{
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+}
+
+h2{
+    margin-left: 1em;
+}
+
+.gal{
+    padding: 1.7em;
+}
+.gallery{
+    max-width: 70em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7vmin;
+    text-align: center;
+    li{
+        list-style-type: none;
+        height: 5em;
+        flex-grow: 1;
+        overflow-y: hidden;
+    }
+    img{
+        width: 4em;
+        height: 4em;
+        object-fit: cover;
+    }
+    img:hover{
+        transform: scale(1.025);
+    }
+}
+
+
+.realisations{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3em;
+    .text{
+        text-align: center;
+        font-size: 0.5em;
+        margin: 1em;
+    }
+}
+
+.Calculator{
+    margin-top: 1.5em;
+    img{
+        width: 90%;
+    }
+}
+.Chatbot{
+    margin-top: 1.5em;
+    img{
+        margin-top: 0.5em;
+        width: 90%;
+    }
+}
+.Fansite{
+    margin-top: 1.5em;
+    video{
+        margin-top: 0.5em;
+        width: 90%;
+    }
+}
+
+
+.foot{
+    background-color: var(--primary-color);
+    height: 100%;
+    align-content: center;
+    ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    }
+    img{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 1.5em;
+    }
+}
+
+
+
+@media only screen and (min-width:425px){
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding: 1.5em;
+        margin-bottom: 0em;
+        gap: 0.7em;
+    }
+    .logoAxel{
+        position: absolute;
+        margin: 1.1em;
+        width: 10em;
+    }
+
+    h1{
+        font-size: 6em;
+        text-align: right;
+    }
+    .nom{
+        font-size: 4em;
+    }
+    .etat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-right: 1em;
+        width: 100%;
+    }
+    .textanime{
+        font-size: 1.25em;
+        text-align: center;
+    }
+    .texte{
+        font-size: 1em;
+    }
+    .realisations .text{
+        text-align: center;
+        font-size: 0.7em;
+        margin: 1em;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    .gallery{
+        li{
+            list-style-type: none;
+            height: 7em;
+            flex-grow: 1;
+            overflow-y: hidden;
+        }
+        img{
+            width: 6em;
+            height: 6em;
+            object-fit: cover;
+        }
+    }
+    .foot{
+        background-color: var(--primary-color);
+        height: 100%;
+        align-content: center;
+        ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        }
+        img{
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+            width: 3em;
+        }
+    }
+    .Calculator p{
+        margin-top: 2em;
+    }
+    .Chatbot p{
+        margin-top: 2em;
+    }
+    .Fansite p{
+        margin-top: 2em;
+    }
+}
