@@ -176,8 +176,8 @@ h1{
   }
 
 hr{
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
     color: var(--primary-color);
 }
 
@@ -283,6 +283,9 @@ h2{
     h1{
         font-size: 6em;
         text-align: right;
+    }
+    h2{
+        font-size: 3em;
     }
     .nom{
         font-size: 4em;
