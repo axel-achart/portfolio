@@ -1,7 +1,3 @@
-@font-face {
-	font-family: 'Horizon';
-	src: url(‘/fonts/horizon.otf’) format('otf')
-}
 :root{
     --primary-color:#1b2269;
     --secondary-color:#3d4699;
@@ -15,8 +11,9 @@
     overflow-x: hidden;
 }
 body {
-	font-family: 'Horizon', sans-serif;
+	font-family: "Bruno Ace", sans-serif;
     color: var(--text-color);
+    font-size: 1.5em;
 }
 
 
@@ -106,7 +103,10 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: 8em;
+    margin-left: 1em;
+    margin-right: 1em;
         font-size: 0.65em;
+        text-align: center;
 }
 @keyframes textclip {
   to {
@@ -183,6 +183,7 @@ hr{
 
 h2{
     margin-left: 1em;
+    margin-right: 1em;
 }
 
 .gal{
