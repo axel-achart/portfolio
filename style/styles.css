@@ -181,6 +181,14 @@ hr{
     color: var(--primary-color);
 }
 
+#sk{
+    height: 0;
+    width: 0;
+}
+.skills{
+    text-align: center;
+}
+
 h2{
     margin-left: 1em;
     margin-right: 1em;
@@ -227,25 +235,33 @@ h2{
 }
 
 .Calculator{
-    margin-top: 1.5em;
+    margin-top: 0em;
     img{
         width: 90%;
     }
 }
 .Chatbot{
-    margin-top: 1.5em;
+    margin-top: 0em;
     img{
         margin-top: 0.5em;
         width: 90%;
     }
 }
-.Fansite{
-    margin-top: 1.5em;
+.TicTacToe{
+    margin-top: 1.2em;
     video{
         margin-top: 0.5em;
         width: 90%;
     }
 }
+.Fansite{
+    margin-top: 0em;
+    video{
+        margin-top: 0.5em;
+        width: 90%;
+    }
+}
+
 
 
 .foot{
@@ -373,4 +389,12 @@ h2{
         margin-bottom: 0.8em;
         font-size: 0.7em;
     }
+}
+
+.copyright{
+    text-align: right;
+    font-size: 0.6em;
+    margin-bottom: 0.3em;
+    margin-right: 0.3em;
+    color: #FFFFFF;
 }
