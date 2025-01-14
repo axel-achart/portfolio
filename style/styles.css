@@ -234,9 +234,17 @@ h2{
     }
 }
 
+.Clock{
+    margin-top: 0em;
+    video{
+        width: 90%;
+    }
+}
+
 .Calculator{
     margin-top: 0em;
     img{
+        margin-top: 0.5em;
         width: 90%;
     }
 }
