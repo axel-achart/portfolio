@@ -11,4 +11,4 @@ Mes objectifs professionnels dans les domaines de l'informatique et de l'intelli
 </br>
 📈 Objectif : Inspirer, connecter, et démontrer ma capacité à relever des défis ambitieux. </br>
 </br>
-Explorez, découvrez et n’hésitez pas à me partager vos retours via (LinkedIn)[https://www.linkedin.com/in/axel-achart/] ! 🌐
+Explorez, découvrez et n’hésitez pas à me partager vos retours via [LinkedIn](https://www.linkedin.com/in/axel-achart/) ! 🌐
