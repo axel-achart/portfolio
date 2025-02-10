@@ -21,4 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Ajouter un écouteur d'événements pour vérifier lors du défilement
     window.addEventListener('scroll', checkVisibility);
+
+    // Bouton retour en haut de la page
+    const scrollToTopButton = document.getElementById("scrollToTop");
+
+    scrollToTopButton.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    // Button contact
+    const contactButtons = document.querySelectorAll(".contact-btn");
+
+    contactButtons.forEach(button => {
+        button.addEventListener("click", function (event) {
+            console.log("Bouton cliqué :", event.currentTarget.href);
+        });
+    });
 });
+

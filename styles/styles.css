@@ -1,11 +1,12 @@
-:root{
-    --primary-color:#f1f1f1;
-    --secondary-color:#1f1f1f;
-    --text-color:#ffd700;
-    --text-second-color:#121212;
+:root {
+    --primary-color: #f1f1f1;
+    --secondary-color: #1f1f1f;
+    --text-color: #ffd700;
+    --text-second-color: #121212;
 }
 
-html, body{
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -118,26 +119,26 @@ header nav a:hover {
 }
 
 .objectives-list {
-    list-style-type: none; 
-    padding: 0;           
-    margin: 0;            
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .objectives-list li {
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
 
 #skills {
     display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 4rem 2rem;
     text-align: left;
 }
 
-#title{
+#title {
     text-align: center;
     color: var(--text-color);
     text-transform: uppercase;
@@ -165,7 +166,7 @@ header nav a:hover {
 
 
 .skills-container {
-    width: 48%; 
+    width: 48%;
 }
 
 
@@ -327,5 +328,87 @@ footer p {
 
     footer {
         font-size: 0.8rem;
+    }
+}
+
+/* Bouton de retour en haut */
+#scrollToTop {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--text-color);
+    color: var(--text-second-color);
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#scrollToTop:hover {
+    opacity: 1;
+}
+
+/* Boutons de contact */
+.contact-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-btn img {
+    width: 4rem;
+    /* Taille des icônes */
+    height: 4rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-btn img:hover {
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    #scrollToTop {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.25rem;
+        bottom: 3%;
+        right: 3%;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        /* Affichage en colonne sur petit écran */
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .contact-btn img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #scrollToTop {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        bottom: 4%;
+        right: 4%;
+    }
+
+    .contact-btn img {
+        width: 3rem;
+        height: 3rem;
     }
 }
