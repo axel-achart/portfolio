@@ -103,11 +103,15 @@ header nav a:hover {
     font-size: 3rem;
 }
 
+.passions {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    text-align: center;
+}
 .passions h2 {
     color: var(--text-color);
     text-transform: uppercase;
     font-size: 2.3rem;
-    text-align: center;
 }
 
 
@@ -229,7 +233,6 @@ header nav a:hover {
 .section.visible {
     opacity: 1;
 }
-
 
 
 footer {
