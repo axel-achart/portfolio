@@ -1,14 +1,14 @@
-# Portfolio - Mes compétences et mes ambitions 🚀
+# Portfolio - My Skills and Ambitions 🚀
 
-Bienvenue sur mon portfolio interactif, conçu pour mettre en avant mes compétences, mes réalisations et mes objectifs. 🎯 </br>
-Ce projet innovant est une vitrine de mon parcours, combinant design moderne et technologies web. 💻✨
+Welcome to my interactive portfolio, designed to showcase my skills, achievements, and goals. 🎯 </br>
+This innovative project is a showcase of my journey, combining modern design and web technologies. 💻✨
 
-## Ce que vous y trouverez 👉
+## What you'll find here 👉
 
-Une présentation claire et engageante de mon profil. </br>
-Mes projets phares, illustrant mon savoir-faire technique et ma créativité. </br>
-Mes objectifs professionnels dans les domaines de l'informatique et de l'intelligence artificielle. </br>
+A clear and engaging introduction to my profile. </br>
+My key projects, highlighting my technical expertise and creativity. </br>
+My professional goals in the fields of computer science and artificial intelligence. </br>
 </br>
-📈 Objectif : Inspirer, connecter, et démontrer ma capacité à relever des défis ambitieux. </br>
+📈 Goal: To inspire, connect, and demonstrate my ability to tackle ambitious challenges. </br>
 </br>
-Explorez, découvrez et n’hésitez pas à me partager vos retours via [LinkedIn](https://www.linkedin.com/in/axel-achart/) ! 🌐
+Explore, discover, and feel free to share your feedback with me via [LinkedIn](https://www.linkedin.com/in/axel-achart/) ! 🌐
