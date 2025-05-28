@@ -122,10 +122,10 @@ header nav a:hover {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 10.5rem;
+    height: 10.5rem;
     border-radius: 50%;
-    margin-top: 1.3rem;
+    margin-top: 5rem;
     border: 3px solid #ffd700;
 }
 
